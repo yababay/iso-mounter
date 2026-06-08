@@ -170,6 +170,21 @@ serve_file() {
      *\.js)
        CONTENT_TYPE="text/javascript"
        ;;
+     *\.json)
+       CONTENT_TYPE="application/json"
+       ;;
+     *\.map)
+       CONTENT_TYPE="application/json"
+       ;;
+     *\.svg)
+       CONTENT_TYPE="image/svg+xml"
+       ;;
+     *\.woff)
+       CONTENT_TYPE="font/woff"
+       ;;
+     *\.woff2)
+       CONTENT_TYPE="font/woff2"
+       ;;
      *)
        read -r CONTENT_TYPE   < <(file -b --mime-type "$file")
        ;;

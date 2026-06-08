@@ -1,0 +1,85 @@
+$h1-color: rgb(151, 151, 151); //rgb(219, 219, 219) ;//rgb(236, 232, 193);
+
+header {
+    margin: 0;
+    border: 0;
+    padding: 1rem 0;
+    background-color: black;
+    width: 100%;
+    height: min(20vh, 320px);
+    min-height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    padding-inline: clamp(1rem, 5vw, 3rem);
+
+    p {
+        margin: 0;
+        font-size: clamp(1.8rem, 4vw, 3rem);
+        line-height: 1.05;
+        opacity: .80;
+        color: $h1-color;
+        text-align: center;
+
+        span {
+            border: 3px solid $h1-color;
+            padding-inline: clamp(1rem, 2vw, 1.5rem);
+            padding-block: .8rem;
+            color: white;
+            background-color: #333;
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    header {
+        min-height: 180px;
+        height: auto;
+        padding-block: 1.5rem;
+    }
+}
+
+@media (max-width: 640px) {
+    header {
+        min-height: 240px;
+        margin-bottom: 2rem;
+        flex-direction: column;
+    }
+
+    header p {
+        font-size: clamp(1.2rem, 5vw, 2rem);
+
+        span {
+            padding-inline: 0.9rem;
+            padding-block: 0.65rem;
+        }
+    }
+}
+
+.hidden-title {
+    visibility: hidden;
+    opacity: 0;  
+}
+
+.shown-title {
+    opacity: .85;
+    transition: all 1.5s ease-out;
+    visibility: visible;  
+}
+
+.hidden-shield {
+    visibility: hidden;
+    transition: all 1.9s ease-out;
+    opacity: 0;  
+}
+
+.shown-shield {
+    opacity: 1;
+    visibility: visible;  
+    background-color: black;
+}

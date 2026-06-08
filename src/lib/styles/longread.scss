@@ -1,0 +1,125 @@
+@use 'header';
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: clamp(1rem, 4vw, 3rem);
+    padding-block: 1.5rem;
+    box-sizing: border-box;
+
+    article {
+        width: min(100%, 80ch);
+    }
+
+    article > p:first-of-type {
+        margin-top: 2rem;
+        font-style: italic;
+    }
+
+    article, svg, figure, img {
+        width: min(100%, 80ch);
+        max-width: 100%;
+    }
+
+    figure {
+        img, svg {
+            width: 100%;
+            max-width: 78ch;
+            height: auto;
+        }
+    }
+
+    .modal-body {
+        img, svg {
+            width: min(100%, 50vw);
+            max-width: 100%;
+            height: auto;
+        }
+    }
+
+    ul {
+        min-height: 1rem;
+    }
+
+    $blockquote-color: #777;
+
+    blockquote {
+        border-left: 1rem solid silver;
+        color: $blockquote-color;
+        padding-left: 1rem;
+        margin-block: 1rem;
+        a {
+            color: $blockquote-color;
+        }
+    }
+
+    code {
+        color: $blockquote-color;
+        word-break: break-word;
+    }
+}
+
+$figcaption-color: #777;
+
+figure {
+    text-align: center;
+}
+
+figure img,
+figure svg {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption {
+    padding-inline: clamp(1rem, 5vw, 5ch);
+    padding-block: 1rem;
+    text-align: center;
+    color: $figcaption-color;
+    font-size: smaller;
+}
+
+figcaption::before {
+    content: '↑ ';
+}
+
+article h1, pre.language-latex-1 {
+    display: none;
+}
+
+@media (max-width: 900px) {
+    main {
+        padding-inline: 1rem;
+    }
+
+    .modal-body img,
+    .modal-body svg {
+        width: 100%;
+    }
+
+    blockquote {
+        border-left-width: 0.75rem;
+        padding-left: 0.75rem;
+    }
+
+    figcaption {
+        padding-inline: 1rem;
+    }
+}
+
+@media (max-width: 640px) {
+    main {
+        padding-inline: 0.75rem;
+    }
+
+    article > p:first-of-type {
+        margin-top: 1.5rem;
+    }
+
+    code {
+        font-size: 0.95rem;
+    }
+}

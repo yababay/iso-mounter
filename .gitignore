@@ -1,2 +1,6 @@
 .env
 build/
+*/**/state
+*/**/sticker.sql
+*/**/tag_cache
+

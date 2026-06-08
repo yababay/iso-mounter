@@ -12,7 +12,69 @@ mount_iso() {
     if [ -n "`mount | grep /mnt/iso`" ]; then
         umount /mnt/iso
     fi
+    
     mount /mnt/2tb/iso/$2 /mnt/iso/ -o loop
+
+    MPD_DIR="/srv/iso-mounter/mpd/`echo $2 | sed 's/.iso//'`"
+
+    if [ ! -d "$MPD_DIR" ]; then
+        mkdir -p $MPD_DIR/playlists
+        ln -s /mnt/iso $MPD_DIR/music
+
+        echo "music_directory    \"$MPD_DIR/music\""       >  $MPD_DIR/mpd.conf
+        echo "playlist_directory \"$MPD_DIR/playlists\""   >> $MPD_DIR/mpd.conf
+        echo "db_file            \"$MPD_DIR/tag_cache\""   >> $MPD_DIR/mpd.conf
+        echo "state_file         \"$MPD_DIR/state\""       >> $MPD_DIR/mpd.conf
+        echo "sticker_file       \"$MPD_DIR/sticker.sql\"" >> $MPD_DIR/mpd.conf
+
+        cat >> "$MPD_DIR/mpd.conf" << 'EOF'
+pid_file                "/run/mpd/pid"
+log_file                "/var/log/mpd/mpd.log"
+user                    "mpd"
+
+# Input #######################################################################
+
+input {
+        plugin          "curl"
+}
+
+input {
+        enabled         "no"
+        plugin          "qobuz"
+}
+
+input {
+        enabled         "no"
+        plugin          "tidal"
+}
+
+decoder {
+        plugin          "hybrid_dsd"
+        enabled         "no"
+}
+
+# Audio Output ################################################################
+
+audio_output {
+       type		"pulse"
+       name		"Pulse via TCP"
+       server		"192.168.0.105"
+}
+
+filesystem_charset      "UTF-8"
+EOF
+    fi
+
+    touch $MPD_DIR/tag_cache
+    chown mpd $MPD_DIR -R
+    
+    if [ -n "`ps ax | grep '[m]pd.conf'`" ]; then
+        killall mpd
+    fi
+
+    mpd $MPD_DIR/mpd.conf
+    mpc update
+    
     add_response_header "Content-Type" "text/plain"
     send_response_ok_exit <<< "mounted"
 }
@@ -185,6 +247,12 @@ serve_file() {
      *\.woff2)
        CONTENT_TYPE="font/woff2"
        ;;
+     *\.ttf)
+       CONTENT_TYPE="font/ttf"
+       ;;
+     *\.eot)
+       CONTENT_TYPE="application/vnd.ms-fontobject"
+       ;;
      *)
        read -r CONTENT_TYPE   < <(file -b --mime-type "$file")
        ;;
@@ -282,6 +350,7 @@ line=${line%%$'\r'}
 recv "$line"
 
 read -r REQUEST_METHOD REQUEST_URI REQUEST_HTTP_VERSION <<<"$line"
+REQUEST_URI="${REQUEST_URI%%\?*}"
 
 [ -n "$REQUEST_METHOD" ] && \
 [ -n "$REQUEST_URI" ] && \

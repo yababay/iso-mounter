@@ -7,11 +7,13 @@
 		"bro": "BROWSER=firefox vite dev --open",
 		"dev": "vite dev",
 		"git": "git add . && git commit -am ok && git push origin frontend",
-		"build": "vite build"
+		"build": "vite build",
+		"postbuild": "npm run deploy",
+		"deploy": "rsync -avz --delete build/ music:/srv/iso-mounter/build"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-static": "^3.0.10",
-		"@sveltejs/kit": "^2.57.0",
+		"@sveltejs/kit": "^2.63.1",
 		"@sveltejs/vite-plugin-svelte": "^7.0.0",
 		"mdsvex": "^0.12.7",
 		"svelte": "^5.55.2",

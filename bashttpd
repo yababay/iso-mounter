@@ -66,6 +66,7 @@ EOF
     fi
 
     touch $MPD_DIR/tag_cache
+    touch $MPD_DIR/playlists/all.m3u
     chown mpd $MPD_DIR -R
     
     if [ -n "`ps ax | grep '[m]pd.conf'`" ]; then

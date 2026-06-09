@@ -9,11 +9,16 @@
 # Adopted for iso mounting by: Michael Belyakov, 2026
 
 mount_iso() {
+
+    if [ -z "`mount | grep /mnt/1tb`" ]; then
+        mount /mnt/1tb
+    fi
+    
     if [ -n "`mount | grep /mnt/iso`" ]; then
         umount /mnt/iso
     fi
     
-    mount /mnt/2tb/iso/$2 /mnt/iso/ -o loop
+    mount /mnt/1tb/iso/$2 /mnt/iso/ -o loop
 
     MPD_DIR="/srv/iso-mounter/mpd/`echo $2 | sed 's/.iso//'`"
 

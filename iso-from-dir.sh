@@ -7,6 +7,9 @@ fi
 
 UUID="`uuidgen`"
 
-echo Please write down: $UUID
+mkisofs -o ../../$UUID.iso -J -R -V "$1" .
 
-mkisofs -o ../$UUID.iso -J -R -V "$1" .
+echo
+echo Now you can burn this image with command: ../burn.sh ../../$UUID.iso
+echo
+

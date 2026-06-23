@@ -1,6 +1,7 @@
 <script lang="ts">
     import db from '$lib/assets/db.yaml?raw'
     import * as yaml from 'js-yaml'
+    import { onMount } from 'svelte';
 
     const data = yaml.load(db) as any
     const tags = new Set<string>(
@@ -16,8 +17,10 @@
     }
 
     let selectedTag: string | null = $state(null)
+    let searchQuery: string | null = $state(null)
     let success: HTMLDivElement | undefined = $state()
     let danger: HTMLDivElement | undefined = $state()
+    let searchInput: HTMLInputElement | undefined = $state()
 
     const cards: Card[] = $state(data)
 
@@ -25,7 +28,42 @@
       (): Card[] => selectedTag && cards.filter((item: Card) => typeof selectedTag === 'string' && (item.tags || []).includes(selectedTag)) || []
     )
 
+    const foundCards: Card[] = $derived.by(
+      (): Card[] => {
+        if(!(searchQuery && typeof searchQuery === 'string')) return []
+        return cards.filter((item: Card) =>
+          typeof searchQuery === 'string' && ( 
+          (
+            item.label.toLowerCase().includes(searchQuery) || 
+            item.description && item.description.toLowerCase().includes(searchQuery) || 
+            item.content.join(' ').toLowerCase().includes(searchQuery) ||
+            (item.tags || []).join(' ').toLowerCase().includes(searchQuery)
+          )
+        ))
+      }
+    )
+
+    const displayedCards: Card[] = $derived.by(
+      (): Card[] => {
+        if(selectedTag && typeof selectedTag === 'string') return filteredCards
+        if(searchQuery && typeof searchQuery === 'string') return foundCards
+        return []
+      }
+    )
+
+    const search = () => {
+      const query = searchInput?.value.toLowerCase().trim() || ''
+      if(query.length < 3) {
+        searchQuery = null
+        return
+      }
+      selectedTag = null
+      searchQuery = query
+    }
+
     const showByTag = (event: MouseEvent & { currentTarget: EventTarget & HTMLLIElement; }) => {
+      searchQuery = null
+      if(searchInput) searchInput.value = ''
       selectedTag = event.currentTarget.textContent?.trim() || null
     }
 
@@ -44,6 +82,10 @@
         await new Promise(yes => setTimeout(yes, 3000))
         alert.classList.add('d-none')
     }
+
+    onMount(() => {
+      if(searchInput) searchInput.focus()
+    })
 </script>
 
 <div class="row">
@@ -51,10 +93,10 @@
     <h1>{selectedTag && selectedTag.charAt(0).toUpperCase() + selectedTag.slice(1) || 'Мультимедийная коллекция'}</h1>
     <p class="d-flex align-items-center w-100 mb-3 mt-3">
       <span class="me-2">Выберите тэг для фильтрации или введите запрос:</span>
-      <input type="text" placeholder="Поиск..." class="form-control w-25" />
+      <input type="text" placeholder="Поиск..." class="form-control w-25"  bind:this={searchInput} oninput={search} />
     </p>
     <div class="cards">
-    {#each filteredCards as card}
+    {#each displayedCards as card}
       <div class="card mb-3">
         <h5 class="card-title bg-secondary text-white">{card.id}<br> ({card.label})</h5>
         <div class="card-body">

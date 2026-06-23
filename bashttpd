@@ -78,8 +78,8 @@ EOF
         killall mpd
     fi
 
-    mpd $MPD_DIR/mpd.conf
-    mpc update
+    # mpd $MPD_DIR/mpd.conf
+    # mpc update
     
     add_response_header "Content-Type" "text/plain"
     send_response_ok_exit <<< "mounted"

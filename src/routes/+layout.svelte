@@ -12,7 +12,13 @@
 </svelte:head>
 
 <main>
-	<article>
+	<section>
 		{@render children()}
-	</article>
+	</section>
 </main>
+
+<style lang="scss">
+	section {
+		width: 90%;
+	}
+</style>

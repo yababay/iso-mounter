@@ -1,4 +1,4 @@
-image:
+- 
   id: 006a5a7b-3296-4c36-af6a-3ffd378b513f
   label: Воскресенье
   tags:
@@ -10,7 +10,7 @@ image:
   - Воскресенье
   - Машина времени
 
-image:
+- 
   id: 00fe2f82-d50b-11ea-8799-1774e1f0005c
   label: Прокофьев 01
   tags: 
@@ -21,10 +21,10 @@ image:
   - Ромео и Джульетта
   - Симфонии
   - Скрипичные концерты
-  - Фортепьянные концерты
-  - Фортепьянные сонаты
+  - Фортепианные концерты
+  - Фортепианные сонаты
 
-image:
+- 
   id: 0b0f56d0-f6f7-11ec-8738-371ff62bde6f
   label: Depeche Mode
   tags: 
@@ -38,7 +38,7 @@ image:
   - 1990. Depeche Mode - Violator
   - 1993. Depeche Mode - Songs Of Faith And Devotion
 
-image:
+- 
   id: 0fc8100d-c611-4ecb-956f-54e6d57b2b74
   label: Германия и немцы
   tags: 
@@ -55,20 +55,20 @@ image:
   - Фейхтвангер Лион – Москва 1937 (читает Харитонов Александр)
   - Чумаки
 
-image:
+- 
   id: 10737072-d58c-11ea-81b8-43a1a21cdc97
-  label: Фортепьяно 01
+  label: Фортепиано 01
   tags: 
   - классическая музыка
-  - фортепьяно
+  - фортепиано
   description: >
   content:
-  - В.А. Моцарт. Фортепьянные сонаты и вариации
-  - Людвиг ван Бетховен. Фортепьянные сонаты
+  - В.А. Моцарт. Фортепианные сонаты и вариации
+  - Людвиг ван Бетховен. Фортепианные сонаты
   - Отражения (Арсений Тарасевич-Николаев)
   - Русский маскарад (Сакари Орама)
 
-image:
+- 
   id: 11558b5d-8a3c-49fd-95ec-c32e8752d1b7
   label: Средневековье
   tags: 
@@ -80,7 +80,7 @@ image:
   - Лажечников Иван Иванович - Басурман (читает Репнина Светлана)
   - Мережковский Дмитрий Сергеевич – Пётр I и Алексей (читает Владимир Самойлов)
 
-image:
+- 
   id: 15171b14-a54c-44e1-98e4-9ae2a7f030ff
   label: Философия 01
   tags: 
@@ -89,7 +89,7 @@ image:
   content:
   - Лекции по философии 01
 
-image:
+- 
   id: 1ee6455c-7232-4af6-b7ee-721611457286
   label: CDROM
   tags: 
@@ -103,12 +103,12 @@ image:
   - Крематорий
   - Чиж & Co
 
-image:
+- 
   id: 1f51cef2-c125-49c5-9416-ec8230c8dab1
   label: Л. Бетховен
   tags: 
   - классическая музыка
-  - фортепьяно
+  - фортепиано
   - композиторы
   description: >
   content:
@@ -141,7 +141,7 @@ image:
   - берлин хзристос.mp3
   - селдьмая арнорку.mp3
 
-image:
+- 
   id: 1f57a95a-f5e8-4377-95da-8d7a9064dbb7
   label: Радио Маяк 01
   tags: 
@@ -155,7 +155,7 @@ image:
   - Эрман Барт – Иисус до Евангелий (читает Роман Волков)
   - Ярхо Валерий – Иностранцы на русской службе
 
-image:
+- 
   id: 1f5fef52-d65e-11ea-9091-f3d8bf708aff
   label: Rolling Stones
   tags: 
@@ -167,7 +167,7 @@ image:
   - The Velvet Underground & Nico
   - cargo
 
-image:
+- 
   id: 202fca6d-5895-44cc-87cc-d7f3f6e40f03
   label: CDROM
   tags: 
@@ -178,7 +178,7 @@ image:
   - DDT
   - Нашествие
 
-image:
+- 
   id: 224792d9-5ef2-4e69-8be9-5b18787f48a7
   label: CDROM
   tags: 
@@ -202,7 +202,7 @@ image:
   - Этническая музыка
   - Юрий Башмет
 
-image:
+- 
   id: 22d3aeef-73d3-436d-8b80-e54345a214b9
   label: Аудиоспектакли
   tags: 
@@ -212,7 +212,7 @@ image:
   - Аудиокниги и радиоспектакли для детей
   - Наталия Басовская – Все герои мировой истории (читает Ирина Патракова)
 
-image:
+- 
   id: 259245f5-2c9e-4728-abbd-c5455406be20
   label: Джон Милль
   tags: 
@@ -227,7 +227,7 @@ image:
   - Петр Чаадаев – Философические письма. Апология сумасшедшего (читает Илья Прудовский)
   - Рагунштейн Арсений – За три моря за зипунами (читает Росляков Михаил)
 
-image:
+- 
   id: 2598f2b4-fa31-417b-8856-26b1732ede51
   label: CDROM
   tags: 
@@ -257,22 +257,22 @@ image:
   - Шедевры русской классики
   - Юрий Башмет
 
-image:
+- 
   id: 25bb7eca-d663-11ea-8fc1-97fed6673f2a
   label: Ростропович
   tags: 
   - классическая музыка
-  - фортепьяно
+  - фортепиано
   - композиторы
   description: >
   content:
   - Игорь Жуков играет сонаты Александра Скрябина
-  - Играет Владимир Софронский (фортепьяно)
+  - Играет Владимир Софронский (Фортепиано)
   - Играет Кейрос Белоглавек (виолончель)
   - Мстислав Ростропович играет Дворжака и Сен Санса
   - Николай Луганский играет прелюдии Сергея Рахманинова
 
-image:
+- 
   id: 29ed4e04-4875-4c11-9424-c4cc2626ea31
   label: Всё так 01
   tags: 
@@ -389,7 +389,7 @@ image:
   - 2014-06-28 Древнеримский политик и полководец Марк Антоний.mp3
   - 2014-07-05 Древнеримский политик и полководец Марк Антоний - часть II.mp3
 
-image:
+- 
   id: 2ba55cbe-f546-11ea-91f9-ffa89a93fe66
   label: Гитара и скрипка
   tags: 
@@ -400,7 +400,7 @@ image:
   - гитара и скрипка
   - гитара соло
 
-image:
+- 
   id: 2bf81b52-d5c5-11ea-b7a6-1ff36058d604
   label: Виртуозы Рима
   tags: 
@@ -420,7 +420,7 @@ image:
   - Русский романс
   - Средневековая церковная музыка
 
-image:
+- 
   id: 2ce4adb3-242a-4ab2-9250-3a057602b149
   label: PopRF_02
   tags: 
@@ -437,7 +437,7 @@ image:
   - Леонид Агутин
   - Любэ
 
-image:
+- 
   id: 33777265-380f-4a26-8303-35a635d0d2ae
   label: Монтень - Опыты
   tags: 
@@ -450,12 +450,12 @@ image:
   - Макиавелли Никколо – О военном искусстве (читает Дмитрий Кузнецов)
   - Мишель Монтень – Опыты
 
-image:
+- 
   id: 34060d50-d515-11ea-a019-0f759b0ff8b7
   label: Ван Клиберн
   tags: 
   - классическая музыка
-  - фортепьяно
+  - фортепиано
   - опера
   - вокал
   description: >
@@ -465,7 +465,7 @@ image:
   - Римский-Корсаков и другие
   - Симон Трпчески. Сказки из России
 
-image:
+- 
   id: 3ae622a6-7421-47e8-9170-0300c9a196dd
   label: Аквариум
   tags: 
@@ -506,7 +506,7 @@ image:
   - Оракул божественной бутылки
   - Песни из фильмов
 
-image:
+- 
   id: 3c2010aa-4680-4de8-b03e-a4d9fbd430fa
   label: Зоопарк
   tags: 
@@ -517,7 +517,7 @@ image:
   - .Video
   - Зоопарк
 
-image:
+- 
   id: 3c3cb816-f3b5-11ea-afdd-f7124332f861
   label: Хиты 1990-х
   tags: 
@@ -528,7 +528,7 @@ image:
   - Зарубежные хиты 90-х
   - Российские хиты 90-х
 
-image:
+- 
   id: 3e926853-605a-43e0-addb-608a2d0afc6e
   label: ABBA
   tags: 
@@ -545,7 +545,7 @@ image:
   - Smokie
   - Teach In
 
-image:
+- 
   id: 3f43c28c-5275-4f4a-ae4c-973d1cf209e7
   label: Пётр Рябов
   tags: 
@@ -554,7 +554,7 @@ image:
   content:
   - Рябов Петр
 
-image:
+- 
   id: 401df366-d7ed-11ea-811d-838ceb9e588c
   label: Эрик Клэптон
   tags: 
@@ -564,7 +564,7 @@ image:
   - Cream
   - Eric Clapton
 
-image:
+- 
   id: 403f46b9-b250-40e5-99ef-524897a0c91b
   label: -J
   tags: 
@@ -632,7 +632,7 @@ image:
   - Ч. Дикенс. Записки Пиквикского клуба
   - Ч. Диккенс. Оливер Твист
 
-image:
+- 
   id: 418b8c56-f537-11ea-b57d-2fb3ca67f3cf
   label: Мария Каллас
   tags: 
@@ -651,7 +651,7 @@ image:
   - Танцевальная музыка
   - Телеман. Музыка на воде
 
-image:
+- 
   id: 470e5ff2-cd30-4d3e-9dd5-0b3a62dd78db
   label: CDROM
   tags: 
@@ -672,7 +672,7 @@ image:
   - italy
   - madrigal
 
-image:
+- 
   id: 4b6eba5a-d58d-11ea-a4e3-e72e3483219a
   label: Иванов-Крамской
   tags: 
@@ -689,14 +689,14 @@ image:
   - Людвиг ван Бетховен. Симфония №9
   - Роберт Шуман. Die Fantasiestucke, Op.12. Соната №2
   - Сергей Рахманинов. Всенощное бдение
-  - Сергей Рахманинов. Концерт для фортепьяно с оркестром №2
+  - Сергей Рахманинов. Концерт для Фортепиано с оркестром №2
 
-image:
+- 
   id: 4d6d31d5-11ec-4402-990c-e473b2f845c9
   label: CDROM
   tags: 
   - зарубежный рок
-  - русский шансон
+  - российский шансон
   description: >
   content:
   - George Harrison
@@ -708,7 +708,7 @@ image:
   - Soul_Planet
   - Песни на ребрах
 
-image:
+- 
   id: 4e9ffcc6-7b91-49a0-84e9-25b5dd114352
   label: Средневековье
   tags: 
@@ -723,7 +723,7 @@ image:
   - Дюма Александр – Людовик XV и его эпоха (читает Попов Роман)
   - Екатерина Мишаненкова – Чумазое Средневековье (читает Виктория Фёдорова)
 
-image:
+- 
   id: 53ef3050-d5ca-11ea-a32c-afb331913576
   label: Паганини
   tags: 
@@ -740,7 +740,7 @@ image:
   - Сергей Прокофьев (сюиты)
   - Шарль Гуно
 
-image:
+- 
   id: 54423623-3d65-4332-af7e-e0e940fb08f4
   label: CDROM
   tags: 
@@ -751,7 +751,7 @@ image:
   - Зарубежные хиты 80-90-х
   - Российские хиты 90-х
 
-image:
+- 
   id: 546b6fb3-ece9-45cd-9dff-3e3b9ae99cf6
   label: The Beatles
   tags: 
@@ -766,7 +766,7 @@ image:
   - The Beatles
   - The Traveling Wilburys Collection
 
-image:
+- 
   id: 579c2dc0-789c-4ac8-b27b-947138a84736
   label: Германия и немцы
   tags: 
@@ -775,7 +775,7 @@ image:
   content:
   - Соловьев Сергей Михайлович – История России. Тома 11-14
 
-image:
+- 
   id: 63a6eaf4-f476-11ea-8b2f-8320c2aa83a6
   label: Скрябин
   tags: 
@@ -786,7 +786,7 @@ image:
   - СКРЯБИН
   - СТРАВИНСКИЙ
 
-image:
+- 
   id: 668eebd0-0174-11eb-b4df-e77b9b89cf10
   label: Оперы 01
   tags: 
@@ -806,7 +806,7 @@ image:
   - Maria Callas Live - booklet.pdf
   - Maria Callas Live.jpg
 
-image:
+- 
   id: 68964d2a-016e-11eb-8325-ebb588398b23
   label: Оперы
   tags: 
@@ -826,7 +826,7 @@ image:
   - 8-Беллини. Сомнамбула
   - 9-Джордано. Андре Шенье
 
-image:
+- 
   id: 6a47c53c-2c47-11eb-a340-73b2ea1bd790
   label: Рахманинов
   tags: 
@@ -842,7 +842,7 @@ image:
   - Рахманинов - Piano Concertos nos. 1 & 3 (Ashkenazy, Previn - LSO) [flac]
   - Рахманинов - Symphony No. 2, The Rock (Svetlanov - USSR SO) [flac]
 
-image:
+- 
   id: 6aa7f6d0-4425-40ff-83d9-a17757a6925a
   label: Колобок
   tags: 
@@ -861,7 +861,7 @@ image:
   - Серман И. З. - Где и когда создавались Письма рус. пут. Н. М. Карамзина
   - Эксквемелин А - Пираты Америки
 
-image:
+- 
   id: 6cd01cc4-d665-11ea-af03-f728d60df27f
   label: История гитары
   tags: 
@@ -916,7 +916,7 @@ image:
   - Pered. 49 - Po materialam A P Newenchanogo 2 - 29-00.mp3
   - Pered. 50 - Po materialam A P Newenchanogo 3 - 28-30.mp3
 
-image:
+- 
   id: 73b9dbe2-7faa-41b0-a800-0bd812730179
   label: CCCP_01
   tags: 
@@ -952,7 +952,7 @@ image:
   - Юрий Антонов
   - Я тебя подожду
 
-image:
+- 
   id: 746475db-2c07-4d6b-b8de-f656d565bf98
   label: CDROM
   tags: 
@@ -964,7 +964,7 @@ image:
   - Жан Мишель Жар
   - Женский вокал в рок-музыке
 
-image:
+- 
   id: 764e48d8-53a3-4552-bcbf-40eef08dab1d
   label: CDROM
   tags: 
@@ -981,7 +981,7 @@ image:
   - Советская эстрада
   - Современная пародия
 
-image:
+- 
   id: 787ec712-d5c7-11ea-bd57-f3e64820bc81
   label: Шнитке
   tags: 
@@ -1000,7 +1000,7 @@ image:
   - Сергей Прокофьев
   - Сергей Рахманинов
 
-image:
+- 
   id: 7ccd687a-f514-11ea-9f4e-43f718e6c514
   label: Вилли Токарев
   tags: 
@@ -1011,7 +1011,7 @@ image:
   - Вилли Токарев - В Шумном Балагане
   - Юрий Лоза и Примус
 
-image:
+- 
   id: 7d52d6ee-ed13-4c52-a840-a7ff59e70612
   label: Сева Новгородцев
   tags: 
@@ -1087,7 +1087,7 @@ image:
   - Рок-пятилетки
   - Хождение по мукам
 
-image:
+- 
   id: 7e2ab0e1-9609-425c-a85c-3ab6aefc5bdb
   label: CDROM
   tags: 
@@ -1112,7 +1112,7 @@ image:
   - Цветы
   - Ялла
 
-image:
+- 
   id: 8009b658-a51f-4173-b9ff-736d8efb1f98
   label: Высоцкий
   tags: 
@@ -1152,7 +1152,7 @@ image:
   - Формулировка
   - Я родом из детства
 
-image:
+- 
   id: 808f2570-d651-11ea-b468-9b5751e11a4a
   label: King Crimson
   tags: 
@@ -1165,7 +1165,7 @@ image:
   - Pink Floyd
   - The Beach Boys
 
-image:
+- 
   id: 82084180-dba8-4c55-bece-1cf49fd3fcf8
   label: Средневековье
   tags: 
@@ -1178,7 +1178,7 @@ image:
   - Магр Морис - Сокровище альбигойцев (читает Ненарокомова Татьяна)
   - Марк Туллий Цицерон – Об обязанностях
 
-image:
+- 
   id: 8236568e-001a-4532-8dfc-69ab237aab1b
   label: PopForeign
   tags: 
@@ -1203,12 +1203,12 @@ image:
   - Чингис-Хан
   - Электронная музыка 70-х
 
-image:
+- 
   id: 8277459c-dfcc-475f-85fd-0ef55fbc0326
   label: Музыка 1930-1960-х
   tags: 
   - советская поп-музыка
-  - русский шансон
+  - российский шансон
   - бонус
   description: >
   content:
@@ -1227,7 +1227,7 @@ image:
   - Тамара Церетели
   - Федор Шаляпин
 
-image:
+- 
   id: 8461c6fe-0201-4079-9c21-d074464e5be6
   label: Философия 02
   tags: 
@@ -1239,7 +1239,7 @@ image:
   - Наталия Басовская – Главная война Средневековья
   - Николай Рерих – Община
 
-image:
+- 
   id: 85c7cac8-35c0-11eb-acd5-4b1759f1e93b
   label: Вивальди
   tags: 
@@ -1253,7 +1253,7 @@ image:
   - Антонио Вивальди
   - Дмитрий Бортнянский
 
-image:
+- 
   id: 85dbcb69-5f9b-4258-ac1d-ce293f7173ed
   label: CDROM
   tags: 
@@ -1264,7 +1264,7 @@ image:
   - Aerostat_03
   - Кино
 
-image:
+- 
   id: 871bf4b8-84c7-4d75-8e69-a2d7ebe3f3d1
   label: CDROM
   tags: 
@@ -1275,7 +1275,7 @@ image:
   - Дюна
   - Любэ 1989-2009
 
-image:
+- 
   id: 8a32fdcf-af90-4c3a-ad7b-f188b2bfd1fc
   label: Биб. в кармане
   tags: 
@@ -1285,7 +1285,7 @@ image:
   - Audio
   - Библиотека в кармане
 
-image:
+- 
   id: 8ad0b95f-7edf-44d4-b444-7c27c79316cc
   label: CDROM
   tags: 
@@ -1298,7 +1298,7 @@ image:
   - SCORPION.320
   - Ещё что-то
 
-image:
+- 
   id: 8c589708-bee4-4d8d-9ac5-1eda79eac7ff
   label: Классич. музыка
   tags: 
@@ -1314,7 +1314,7 @@ image:
   - Тоска (Димитрова)
   - Шедевры русской классики
 
-image:
+- 
   id: 8ee4ca92-4295-4c9c-8e96-e61fcb805a84
   label: Queen
   tags: 
@@ -1327,7 +1327,7 @@ image:
   - Uria Heep
   - Yes
 
-image:
+- 
   id: 90256424-abcc-459a-9f3b-d03b57dfb0f5
   label: CDROM
   tags: 
@@ -1344,7 +1344,7 @@ image:
   - Kraftwerk
   - Технология
 
-image:
+- 
   id: 958fd8da-53c4-4ee6-b878-176f983d8e4a
   label: Радио Маяк 03
   tags: 
@@ -1354,7 +1354,7 @@ image:
   content:
   - Радио Маяк
 
-image:
+- 
   id: 95bf4ef2-3683-4094-921e-3dabda56b608
   label: Blackmore
   tags: 
@@ -1366,7 +1366,7 @@ image:
   - Deep Purple
   - Rainbow
 
-image:
+- 
   id: 95ca20a4-07c5-44fd-8693-d168d125128b
   label: Guitar_01
   tags: 
@@ -1393,7 +1393,7 @@ image:
   - Фернандо Сор
   - Франциско Таррега
 
-image:
+- 
   id: 97e1bdc1-7517-4e00-9a65-e6d543584a7a
   label: Books + music
   tags: 
@@ -1404,7 +1404,7 @@ image:
   - Books
   - Music
 
-image:
+- 
   id: 9937c395-4eb6-46ca-ba00-caafe4b6e0cf
   label: CDROM
   tags: 
@@ -1418,7 +1418,7 @@ image:
   - Музыка из фильмов
   - Французская эстрада
 
-image:
+- 
   id: 9a256d73-726f-4496-828e-bb4ab82e5acb
   label: CDROM
   tags: 
@@ -1453,7 +1453,7 @@ image:
   - Ансамбль старинной музыки Мадригал
   - Итальянская музыка Возрождения
 
-image:
+- 
   id: 9e4e263f-75f6-42eb-ad6e-94a53ab402f9
   label: CDROM
   tags: 
@@ -1474,7 +1474,7 @@ image:
   - Ышо-Ышо
   - Юрий Лоза
 
-image:
+- 
   id: a1fdecec-b4c5-49be-86d1-9042f4721f26
   label: Средневековье
   tags: 
@@ -1490,7 +1490,7 @@ image:
   - Дмитрий Мережковский – Юлиан Отступник
   - Друзь Александр – Петербург. Пешком по городу (читает Друзь Александр)
 
-image:
+- 
   id: a2994dd8-c2ba-42e2-9121-7325d92e6b74
   label: Гумилёв, Шарый
   tags: 
@@ -1505,11 +1505,11 @@ image:
   - Сельма Лагерлёф
   - Солонин Марк - Мозгоимение. Фальшивая история Великой войны [Ян Старжинский]
 
-image:
+- 
   id: a8fdd1b3-7504-4779-8c82-1a020cc726fb
   label: -J
   tags: 
-  - зарубежый рок
+  - зарубежный рок
   description: >
   content:
   - AC-DC
@@ -1521,7 +1521,7 @@ image:
   - The Police
   - Van Morrison
 
-image:
+- 
   id: b2fdc5be-4ab1-425a-a663-3d4ba40cf118
   label: -J
   tags: 
@@ -1540,12 +1540,12 @@ image:
   - Играет Святослав Рихтер
   - Иоган Себастьян Бах
   - Камарго Гварнери
-  - Русская фортепьянная музыка XIX в.
+  - Русская Фортепианная музыка XIX в.
   - Фернандо Сор
   - Франц Шуберт
   - Эдвард Григ
 
-image:
+- 
   id: b5cd5ca3-eeef-4019-bd19-18d27351ac0b
   label: BLUES
   tags: 
@@ -1569,7 +1569,7 @@ image:
   - Sonny Boy Williamson
   - Sonny Boy Williamson (II)
 
-image:
+- 
   id: b6377752-9fd3-496e-9423-c8c40dbb150f
   label: CDROM
   tags: 
@@ -1581,7 +1581,7 @@ image:
   - The Kraftwerk Collection [CSI][h33t]
   - Майкл Джексон (Michael Jackson) дискография
 
-image:
+- 
   id: b665de7c-c103-4b98-b07d-2a02c4b9e613
   label: Радио Маяк 02
   tags: 
@@ -1591,7 +1591,7 @@ image:
   content:
   - Радио Маяк
 
-image:
+- 
   id: b95dcd38-b482-4eac-b908-47f8554a4744
   label: CDROM
   tags: 
@@ -1615,7 +1615,7 @@ image:
   - Тамара Церетели
   - Федор Шаляпин
 
-image:
+- 
   id: bc5cb912-f610-11ea-994a-9726664b7a39
   label: Гендель
   tags: 
@@ -1627,7 +1627,7 @@ image:
   - И.С. Бах
   - Романсы и песни флак
 
-image:
+- 
   id: bdc2781f-35ac-48a8-97a7-b22e08e0305d
   label: Гумилёв, Шарый
   tags: 
@@ -1637,7 +1637,7 @@ image:
   - Гумилев Лев Николаевич
   - Шарый Андрей
 
-image:
+- 
   id: be2f8b34-eeef-11ea-904e-bf27a89b4818
   label: И. С. Бах
   tags: 
@@ -1656,7 +1656,7 @@ image:
   - Files convert.txt
   - От релизёра°.txt
 
-image:
+- 
   id: c1348398-f3b3-11ea-acff-5baf0f67d613
   label: Зарубежные хиты
   tags: 
@@ -1666,7 +1666,7 @@ image:
   content:
   - Зарубежные хиты 80-90-х
 
-image:
+- 
   id: c24a13db-aa19-480f-9816-69f3f9f8e0b5
   label: CDROM
   tags: 
@@ -1687,7 +1687,7 @@ image:
   - Тимур Шаов
   - Юрий Визбор
 
-image:
+- 
   id: c2793628-ab3c-438c-9778-9b1d06810a3f
   label: Джаз
   tags: 
@@ -1703,7 +1703,7 @@ image:
   - Grant Green
   - Jimmy Smith
 
-image:
+- 
   id: c3fa63b9-7b53-40b0-b0aa-dc914b6f4fa4
   label: Books + music
   tags: 
@@ -1714,7 +1714,7 @@ image:
   - Books
   - Music
 
-image:
+- 
   id: c6d006d9-b8d9-45ed-befd-87381012d772
   label: CDROM
   tags: 
@@ -1723,7 +1723,7 @@ image:
   content:
   - Алиса (Константин Кинчев)
 
-image:
+- 
   id: c7db10dc-f17b-11ec-9d80-ab92734e23a0
   label: Виктор Цой
   tags: 
@@ -1734,7 +1734,7 @@ image:
   - .bonus
   - Виктор Цой - 55 (Moroz Records, 2017) [3CD]
 
-image:
+- 
   id: c8ff8248-6b4e-4389-8079-b8329441f836
   label: CDROM
   tags: 
@@ -1744,7 +1744,7 @@ image:
   - Nautilus Pompilius
   - Чайф
 
-image:
+- 
   id: c9eb917a-b08e-4eeb-8298-59dff7963318
   label: CDROM
   tags: 
@@ -1753,7 +1753,7 @@ image:
   content:
   - BONEYM
 
-image:
+- 
   id: cac12807-d0b7-4a99-8a4b-917a2e6f9485
   label: Биб. в кармане
   tags: 
@@ -1763,7 +1763,7 @@ image:
   - Audio
   - Библиотека в кармане
 
-image:
+- 
   id: cb7a89d8-d374-11ea-af0f-57d1e62f52b2
   label: Литература
   tags: 
@@ -1817,7 +1817,7 @@ image:
   - Юрий Нагибин. Эхо.mp3
   - Юрий Олеша. Три толстяка.mp3
 
-image:
+- 
   id: cd94ca25-07d3-4690-9e9a-361b38a44128
   label: Аудиоспектакли
   tags: 
@@ -1826,7 +1826,7 @@ image:
   content:
   - Аудиокниги и радиоспектакли для детей 02
 
-image:
+- 
   id: cf9eb0f1-dbfb-4934-93b6-cbe5c6ea2862
   label: RockProgressive
   tags: 
@@ -1842,7 +1842,7 @@ image:
   - Uriah Heep
   - Yes
 
-image:
+- 
   id: cfc2c2cf-9c2a-40cb-b490-173e508940af
   label: Средневековье
   tags: 
@@ -1850,7 +1850,7 @@ image:
   content:
   - Воспоминания о событиях 1917 года
 
-image:
+- 
   id: d20d0571-7ff5-492a-88b7-77a8839d02e9
   label: Высоцкий
   tags: 
@@ -1865,7 +1865,7 @@ image:
   - Владимир Высоцкий
   - Михаил Круг
 
-image:
+- 
   id: d2bb82cd-0f8a-4a86-a721-1c599c5e18aa
   label: RockEarly
   tags: 
@@ -1890,7 +1890,7 @@ image:
   - The Beatles
   - Various Artists
 
-image:
+- 
   id: d36f0586-6828-4ee2-b1d5-ac9d6715c826
   label: Барокко+
   tags: 
@@ -1899,7 +1899,7 @@ image:
   content:
   - Музыка Барокко
 
-image:
+- 
   id: dca280f8-72c0-11eb-b55b-070bbaac810e
   label: Диктофон
   tags: 
@@ -1968,7 +1968,7 @@ image:
   - 2019-03-11_004.mp3
   - 2019-03-12_002.mp3
 
-image:
+- 
   id: e014fe4f-e082-478f-a1ad-187202819cd1
   label: CCCP_01
   tags: 
@@ -1984,7 +1984,7 @@ image:
   - Мираж
   - Тамара Церетели
 
-image:
+- 
   id: e0cb1a74-cbec-4d5f-be5b-aa30a60f3315
   label: Файлы (06 июн 26)
   tags: 
@@ -1997,7 +1997,7 @@ image:
   - Рабле Франсуа – Гаргантюа и Пантагрюэль
   - Фалкс Марк Сидоний – Как управлять рабами
 
-image:
+- 
   id: e3b39980-a713-4450-9095-09e10c413855
   label: В. В. Набоков
   tags: 
@@ -2011,7 +2011,7 @@ image:
   - О художниках
   - Сатирикон. Капустники
 
-image:
+- 
   id: e50dff97-bcb8-46ec-babc-156b60657d28
   label: Дмитрий Быков
   tags: 
@@ -2200,7 +2200,7 @@ image:
   - dmitriy-bykov-11-12-2015-seminar-na-zhurfake-mgu.mp3
   - dmitriy-bykov-18-12-2015-seminar-na-zhurfake-mgu.mp3
 
-image:
+- 
   id: e536454c-ead7-480c-9556-53dc1007d86e
   label: RockOther_03
   tags: 
@@ -2219,7 +2219,7 @@ image:
   - Scorpions
   - The Sweet
 
-image:
+- 
   id: e6f0e50a-d666-11ea-81ea-5f9fcc4a9ac1
   label: Арво Пярт
   tags: 
@@ -2231,7 +2231,7 @@ image:
   - Арво Пярт. Избранное
   - История гитарной музыки. Диск 2
 
-image:
+- 
   id: e7929ea4-eee9-11ea-87d1-dfe365dc0a40
   label: И. С. Бах 01
   tags: 
@@ -2248,7 +2248,7 @@ image:
   - Bach - Musical Offering & Canons, BWV 1072-78, 1086-87 (Goebel) [flac]
   - Bach - Six Cello Suites (Daniil Shafran) [flac]
 
-image:
+- 
   id: e9593aa1-dcf0-441f-8953-250b56dd8944
   label: Ancient
   tags: 
@@ -2275,7 +2275,7 @@ image:
   - Федор Шаляпин
   - Эдит Пиаф
 
-image:
+- 
   id: eab1299c-f543-11ea-b82c-1b5a9cae2e42
   label: Сеговия
   tags: 
@@ -2294,7 +2294,7 @@ image:
   - гитарный ансамбль
   - лютневые дуэты
 
-image:
+- 
   id: eea2f85e-26c2-11eb-83b9-1b2eb14d234c
   label: Паганини
   tags: 
@@ -2319,7 +2319,7 @@ image:
   - Paganini_The complete works for guitar (Frédéric Zigante - 1988-1989) Vol. 4
   - Spanish Music for String Orchestra
 
-image:
+- 
   id: f041bd9e-d375-11ea-8cdc-bfe2324121c5
   label: Мясковский
   tags: 
@@ -2331,14 +2331,14 @@ image:
   - Д.Д. Шостакович. Симфонии №№ 5, 8, 9
   - Д.Д. Шостакович. Симфония №11
   - Д.Д. Шостакович. Симфония №7
-  - Д.Д. Шостакович. Фортепьянные концерты.
+  - Д.Д. Шостакович. Фортепианные концерты.
   - Н.Я. Мясковский, С.С. Прокофьев. Произведения для виолончели с оркестром
-  - Н.Я. Мясковский. Все фортепьянные сонаты
+  - Н.Я. Мясковский. Все Фортепианные сонаты
   - Н.Я. Мясковский. Избранные симфонии (16, 17, 21, 22, 25, 27)
   - Н.Я. Мясковский. Симфония №6
   - С.С. Прокофьев. Балет "Шут"
 
-image:
+- 
   id: f17a5378-29ae-4afc-8b4c-9550de06a74e
   label: Прокоф. Рахман.
   tags: 
@@ -2353,7 +2353,7 @@ image:
   - Рахманинов - Piano Concertos nos. 1 & 3 (Ashkenazy, Previn - LSO) [flac]
   - Рахманинов - Symphony No. 2, The Rock (Svetlanov - USSR SO) [flac]
 
-image:
+- 
   id: f69c9438-5d85-447b-91b3-23ba76907744
   label: CDROM
   tags: 
@@ -2365,7 +2365,7 @@ image:
   - .Video
   - Рок-посевы
 
-image:
+- 
   id: f718322e-0260-44f6-80c0-f9afce12cba6
   label: PopRF_01
   tags: 
@@ -2386,7 +2386,7 @@ image:
   - Пушной
   - Технология
 
-image:
+- 
   id: f98aab9e-d8d0-11ea-9f3a-ab47ddfadfcb
   label: Розенбаум
   tags: 
@@ -2425,7 +2425,7 @@ image:
   - 2011 - Берега чистого братства
   - 2015 - Метафизика
 
-image:
+- 
   id: f99191ac-7268-11eb-8222-53693c8a6777
   label: Шедевры классики
   tags: 
@@ -2452,7 +2452,7 @@ image:
   - Шедевры русской классики
   - Юрий Башмет
 
-image:
+- 
   id: fffe94eb-bc86-4365-8eac-4991d0f03a03
   label: Piano_01
   tags: 

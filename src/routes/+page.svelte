@@ -38,7 +38,7 @@
     <button class="nav-link active" id="nav-music-tab" data-bs-toggle="tab" data-bs-target="#nav-music" type="button" role="tab" aria-controls="nav-music" aria-selected="true">Музыка</button>
     <button class="nav-link" id="nav-podcasts-tab" data-bs-toggle="tab" data-bs-target="#nav-podcasts" type="button" role="tab" aria-controls="nav-podcasts" aria-selected="false">Подкасты</button>
     <button class="nav-link" id="nav-books-tab" data-bs-toggle="tab" data-bs-target="#nav-books" type="button" role="tab" aria-controls="nav-books" aria-selected="false">Книги</button>
-    <button class="nav-link" id="nav-video-tab" data-bs-toggle="tab" data-bs-target="#nav-video" type="button" role="tab" aria-controls="nav-video" aria-selected="false">Видео</button>
+    <!-- button class="nav-link" id="nav-video-tab" data-bs-toggle="tab" data-bs-target="#nav-video" type="button" role="tab" aria-controls="nav-video" aria-selected="false">Видео</button -->
     <button class="nav-link" id="nav-software-tab" data-bs-toggle="tab" data-bs-target="#nav-software" type="button" role="tab" aria-controls="nav-software" aria-selected="false" disabled>Программы</button>
   </div>
 </nav>

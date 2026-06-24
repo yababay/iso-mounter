@@ -1,5 +1,7 @@
 bashttpd is a simple, configurable web server written in bash
 
+![Скриншот веб-интерфейса](Screenshot%202026-06-24%20at%2016-42-20%20ISO%20mounter.png)
+
 Requirements
 -------------
 
